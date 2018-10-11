@@ -1,9 +1,9 @@
 import React from "react";
-import "../styles/Main.css";
+import "./Main.css";
 
 const Main = props => (
   <div className="cardPic">
-    <div className="img-container">
+    <div className="img-container z-depth-3">
       <img alt={props.name} src={props.image} />
     </div>
     
