@@ -1,7 +1,8 @@
 import React from "react";
+import "../styles/Main.css";
 
 const Main = props => (
-  <div className="card">
+  <div className="cardPic">
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
