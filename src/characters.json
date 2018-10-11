@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "dean",
+      "image": "/public/assets/images/dean.png"
+    },
+    {
+      "id": 2,
+      "name": "emily",
+      "image": "/public/assets/images/emily.png"
+    },
+    {
+      "id": 3,
+      "name": "jess",
+      "image": "/public/assets/images/jess.png"
+    },
+    {
+      "id": 4,
+      "name": "lane",
+      "image": "/public/assets/images/lane.png"
+    },
+    {
+      "id": 5,
+      "name": "logan",
+      "image": "/public/assets/images/logan.png"
+    },
+    {
+      "id": 6,
+      "name": "Dean",
+      "image": "/public/assets/images/lorelai.png"
+    },
+    {
+      "id": 7,
+      "name": "luke",
+      "image": "/public/assets/images/luke.png"
+    },
+    {
+      "id": 8,
+      "name": "michelle",
+      "image": "/public/assets/images/michelle.png"
+    },
+    {
+      "id": 9,
+      "name": "paris",
+      "image": "/public/assets/images/paris.png"
+    },
+    {
+      "id": 10,
+      "name": "richard",
+      "image": "/public/assets/images/richard.png"
+    },
+    {
+      "id": 11,
+      "name": "rory",
+      "image": "/public/assets/images/rory.png"
+    },
+    {
+      "id": 12,
+      "name": "sookie",
+      "image": "/public/assets/images/sookie.png"
+    }
+  ]
+  
