@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Characters from "./characters.json";
 
 
-class App extends Component {
+class App extends React.Component {
     // Setting this.state.friends to the friends json array
     state = {
       Characters
@@ -14,6 +14,12 @@ class App extends Component {
    // Map over this.state.friends and render a FriendCard component for each friend object
     render() {
       return (
+    <div>
+        <div>
+        <Navbar />
+        <HelloDiv />
+        </div>
+        <div>
           {this.state.Characters.map(Character => (
             <Main
               removeCharacter={this.removeCharacter}
@@ -23,16 +29,10 @@ class App extends Component {
             />
           ))}
         </div>
+    </div>
       );
     }
   }
   
-  const App = () => (
-    <div>
-        <Navbar />
-        <HelloDiv />
-        <Main />
-    </div>
-    );
-    
+
 export default App;
