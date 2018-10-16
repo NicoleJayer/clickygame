@@ -1,9 +1,12 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => (
+const Navbar = props => (
     <nav className="navbar z-depth-3">
-      <a href="/">Welcome</a>
+      <ul>
+      <li><a href="/">Welcome</a></li>
+      <li><div> Score:{props.score}</div></li>
+      </ul>
     </nav>
   );
 
