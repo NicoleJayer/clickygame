@@ -75,6 +75,7 @@ class App extends React.Component {
               id={Character.id}
               name={Character.name}
               image={Character.image}
+              handleClick={this.handleClick}
             />
           ))}
         </div>
