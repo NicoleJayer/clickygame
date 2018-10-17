@@ -20,7 +20,10 @@ class App extends React.Component {
   
    // Map over this.state.friends and render a FriendCard component for each friend object
    resetGame = () => {
-    this.state.currentScore = 0;
+    this.setState({
+      currentScore: 0,
+      clickedCharacters: []
+    });
 
     alert("Sorry game has ended, feel free to try again!");
 
