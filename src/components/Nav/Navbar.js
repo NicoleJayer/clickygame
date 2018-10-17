@@ -7,7 +7,8 @@ const Navbar = props => (
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="/">Stars Hollow Clicky Game</a>
-      <a class="navbar-brand" href="/">Score: {props.score}</a>
+      <a class="navbar-brand" href="#">Click a character to earn points, but don't click the same one twice!</a>
+      <a class="navbar-brand score" href="#">Score: {props.score}</a>
     </div>
   </div>
 </nav>

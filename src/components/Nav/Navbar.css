@@ -16,5 +16,9 @@
 }
 
 .navbar-brand {
-  padding-right: 900px;
+  padding-right: 100px;
+}
+
+.score {
+  padding-left: 90px;
 }
