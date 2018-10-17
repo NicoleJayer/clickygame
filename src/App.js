@@ -13,7 +13,8 @@ class App extends React.Component {
       Characters,
       currentScore: 0,
       // topScore: 0,
-      clickedCharacter: []
+      clickedCharacter: [],
+      topScore: 12
       // chosenCharacter: false
 
     };
@@ -22,7 +23,7 @@ class App extends React.Component {
    resetGame = () => {
     this.setState({
       currentScore: 0,
-      clickedCharacters: []
+      clickedCharacter: []
     });
 
     alert("Sorry game has ended, feel free to try again!");
@@ -37,12 +38,13 @@ class App extends React.Component {
      
     // let clickedCharacter = this.state.clickedCharacter;
     let currentScore = this.state.currentScore;
+    
     // let topScore = this.state.topScore;
        console.log(id)
        console.log(this.state.clickedCharacter)
 
     if (this.state.clickedCharacter.indexOf(id) === -1) {
-      alert(id);
+      // alert(id);
        
         //if the clicked character indexOf id in array is not equal to clicked this.id
        // then psuh into clickedCharacter id
@@ -66,6 +68,11 @@ class App extends React.Component {
       this.resetGame();
     }
 
+    if (this.state.clickedCharacter === this.state.topScore) {
+      alert("Congratulations on beating the game! Play again?");
+      this.resetGame();
+    }
+
 
   };
 
@@ -76,6 +83,7 @@ class App extends React.Component {
         <div>
         <Navbar 
         score={this.state.currentScore}
+        topScore={this.state.topScore}
         />
         <HelloDiv />
         </div>
