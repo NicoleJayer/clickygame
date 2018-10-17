@@ -37,7 +37,8 @@ class App extends React.Component {
     // let topScore = this.state.topScore;
        console.log(id)
        console.log(this.state.clickedCharacter)
-    if (this.state.clickedCharacter.indexOf(id) !== id) {
+
+    if (this.state.clickedCharacter.indexOf(id) === -1) {
       alert(id);
        
         //if the clicked character indexOf id in array is not equal to clicked this.id
@@ -58,7 +59,7 @@ class App extends React.Component {
 
     }
 
-    else {
+    else  {
       this.resetGame();
     }
 
