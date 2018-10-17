@@ -2,12 +2,20 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = props => (
-    <nav className="navbar z-depth-3">
-      <ul>
-      <li><a href="/">Welcome</a></li>
-      <li><div> Score:{props.score}</div></li>
-      </ul>
-    </nav>
+
+  <nav class="navbar navbar-default z-depth-3">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">Stars Hollow Clicky Game</a>
+      <a class="navbar-brand" href="/">Score: {props.score}</a>
+    </div>
+  </div>
+</nav>
+// ...
+//     <nav className="navbar z-depth-3">
+//       <a href="/">Welcome</a>
+//       <div> <a></a>Score:{props.score}</a></div>
+//     </nav>
   );
 
 

@@ -5,7 +5,7 @@ const Main = props => (
   <div className="cardPic"  >
   
     <div className="img-container z-depth-3">
-      <img onClick={() => props.handleClick(props.id)} alt={props.name} src={props.image} value={props.id} />
+      <img className="characterImages" onClick={() => props.handleClick(props.id)} alt={props.name} src={props.image} value={props.id} />
     </div>
    
   </div>

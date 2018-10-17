@@ -12,7 +12,7 @@ img {
     border-color: white;
 }
 
-img:hover {
+.characterImages:hover {
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);

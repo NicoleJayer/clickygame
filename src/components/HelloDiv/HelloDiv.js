@@ -1,9 +1,10 @@
 import React from "react";
+import "./HelloDiv.css";
 
 const HelloDiv = () => (
   <div className="jumbotron">
-    <h2>Welcome to the Gilmore girls Clicky Game!</h2>
-    <h4>Click an image to earn points, but do not click on the same image more than once!</h4>
+
+  <img className="helloBackground" src='./assets/images/starsHollowBanner.png'></img>
     
   </div>
 );
